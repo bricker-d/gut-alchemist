@@ -102,9 +102,14 @@ export default function LandingPage() {
           <span className="font-serif text-lg text-stone-800 tracking-tight">
             The Gut Alchemist
           </span>
-          <a href="#get-it" className="btn-primary text-xs py-2 px-5">
-            Get the Protocol
-          </a>
+          <div className="flex items-center gap-3">
+            <a href="/studio" className="text-xs text-stone-500 hover:text-stone-800 transition-colors">
+              Content Studio
+            </a>
+            <a href="#get-it" className="btn-primary text-xs py-2 px-5">
+              Get the Protocol
+            </a>
+          </div>
         </div>
       </nav>
 
